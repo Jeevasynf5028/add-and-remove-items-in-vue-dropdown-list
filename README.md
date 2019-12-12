@@ -1,8 +1,8 @@
-# How to Add and Remove Items Dynamically in Syncfusion Vue DropDownList
+# How to Add and Remove Items Dynamically in Vue DropDownList of Syncfusion
 
 See how easily you can add and remove items dynamically from Vue Dropdown List.  You will learn how to add new items to the Vue Dropdown List pop-up by specifying an index and without an index. You will also see how to reset a selected item programmatically in the Dropdown List component, and how to remove items from the Dropdown List pop-up.  
 
-Documentatio Link: https://ej2.syncfusion.com/vue/documentation/drop-down-list/how-to/add-item/ 
+Documentation Link: https://ej2.syncfusion.com/vue/documentation/drop-down-list/how-to/add-item/ 
 
 
 ## Project pre-requisites
