@@ -116,171 +116,35 @@ export default {
 <style>
 @import url(https://cdn.syncfusion.com/ej2/material.css);
 
-/* Main container styling */
-.controls {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Dropdown section */
-.dropdownlist {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-/* Remove the br tag and add proper spacing */
-.dropdownlist br {
-  display: none;
-}
-
-/* Dropdown component styling */
-.dropdownlist .e-dropdownlist {
-  min-width: 300px;
-  height: 40px;
-}
-
-.dropdownlist .e-input-group {
-  border: 2px solid #e9ecef;
-  border-radius: 6px;
-  transition: border-color 0.3s ease;
-}
-
-.dropdownlist .e-input-group:hover,
-.dropdownlist .e-input-group.e-input-focus {
-  border-color: #007bff;
-}
-
-/* Button controls container */
 #button-controls {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  margin-top: 17%;
 }
-
-/* Individual button containers */
-.button_add,
-.button_clear,
-.button_remove {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
-/* Button styling */
-#button-controls .e-btn {
-  min-width: 120px;
-  height: 40px;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-/* Button hover effects */
-.button_add .e-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
-}
-
-.button_clear .e-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
-}
-
-.button_remove .e-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
-}
-
-/* Different button colors */
-.button_add .e-btn {
-  background-color: #28a745;
-  border-color: #28a745;
-}
-
-.button_clear .e-btn {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.button_remove .e-btn {
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .controls {
-    margin: 20px;
-    padding: 15px;
-  }
-  
-  #button-controls {
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .button_add,
-  .button_clear,
-  .button_remove {
-    flex: none;
-    width: 100%;
-  }
-  
-  .dropdownlist .e-dropdownlist {
-    min-width: 100%;
-  }
-}
-
-/* Additional visual enhancements */
-.controls::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(45deg, #007bff, #28a745, #ffc107, #dc3545);
-  border-radius: 14px;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
 .controls {
-  position: relative;
+  display: inline-block;
+  width: 100%;
 }
-
-.controls:hover::before {
-  opacity: 0.1;
+.dropdownlist {
+ width: 250px;
+ margin-top: 15%;
+ margin-bottom: 15%;
+ margin-left: 25%;
+ margin-right: 1%;
+ float: left;
 }
-
-/* Title/Header styling */
-.controls::after {
-  content: "Dropdown Controls Demo";
-  display: block;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 600;
-  color: #343a40;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  border-bottom: 2px solid #e9ecef;
+.button_add {
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+}
+.button_clear {
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+}
+.button_remove {
+float: right;
+padding-left: 10px;
+padding-right: 10px;
 }
 </style>
